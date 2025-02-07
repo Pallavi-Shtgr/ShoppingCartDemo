@@ -20,7 +20,7 @@ export function StoreItem({ id, name, price, imgUrl }: StoreItemProps) {
         <Card.Title className="d-flex justify-content-between align-items-center-baseline 
         mb-4">
            <span className="fs-2">${price}</span>
-          <span className="ms-auto">${price}</span>
+          <span className="ms-2 text-muted">${price}</span>
         </Card.Title>
       </Card.Body>
     </Card>
