@@ -11,7 +11,6 @@ type StoreItemProps = {
 
 export function StoreItem({ id, name, price, imgUrl }: StoreItemProps) {
   const [quantity, setQuantity] = useState(0);
-
   return (
     <Card className="h-100">
       <Card.Img
@@ -33,7 +32,7 @@ export function StoreItem({ id, name, price, imgUrl }: StoreItemProps) {
           ) : (
             <div className="d-flex align-items-center
              flex-column" style={{ gap: "5rem" }}>
-
+              
             <div className="d-flex align-items-center
             justify-content-center" style={{ gap: "5rem"}}>
                 Hi
