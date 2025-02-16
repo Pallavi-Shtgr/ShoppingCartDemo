@@ -9,7 +9,8 @@ type StoreItemProps = {
   imgUrl: string;
 };
 
-export function StoreItem({ id, name, price, imgUrl }: StoreItemProps) {
+export function StoreItem({ id, name, price, imgUrl }: 
+  StoreItemProps) {
   const [quantity, setQuantity] = useState(0);
   return (
     <Card className="h-100">
@@ -43,7 +44,7 @@ export function StoreItem({ id, name, price, imgUrl }: StoreItemProps) {
                 </div>
                 <Button>-</Button>
               </div>
-              Bye
+              <Button variant="danger" size="sm">Remove</Button>
            
             </div>
           )}
