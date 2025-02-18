@@ -1,5 +1,3 @@
-// src/pages/About.tsx
-export default function About() {
-    return <h1>About Page</h1>;
-  }
-  
+export function About() {
+  return <h1>About</h1>
+}
