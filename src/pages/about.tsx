@@ -59,7 +59,7 @@ export function About() {
           <br />
           📧 Email: <a href="mailto:support@shopease.com">support@shopease.com</a>
           <br />
-          📞Phone: +1 234 567 890
+          Phone: +1 234 567 890
         </p>
         <Button variant="success" href="https://wa.me/1234567890">
           Chat on WhatsApp
